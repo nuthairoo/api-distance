@@ -9,4 +9,4 @@ export default Page;
     //return new NextResponse("{distance: 100}" )
     return new NextResponse("{distance: ${process.env.distance}}" )
  
-}*
+}*/
