@@ -2,7 +2,8 @@ import { NextResponse } from "next/server";
 
 export async function GET() {
     //return new NextResponse("{distance: 2000}" )
-    return NextResponse.json({
+   /* return NextResponse.json({
     distance: 2000, // ✅ POST function return type checks type of response body object
-  });
+  });*/
+    return NextResponse.json({ error: 'Internal Server Error' }, { status: 500 });
 }
