@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
 
 export async function GET() {
-    return new NextResponse("{distance: 1500}" )
+    return NextResponse.json({distance: 1500});
 }
